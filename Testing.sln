@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJC.Decorator.Tests", "TJC.Decorator.Tests\TJC.Decorator.Tests.csproj", "{2DE0F76B-D122-44ED-A8DD-A20DD037A6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJC.Decorator", "TJC.Decorator\TJC.Decorator.csproj", "{1224B07A-556D-453E-9391-294A0BA0D1F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE0F76B-D122-44ED-A8DD-A20DD037A6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE0F76B-D122-44ED-A8DD-A20DD037A6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE0F76B-D122-44ED-A8DD-A20DD037A6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE0F76B-D122-44ED-A8DD-A20DD037A6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1224B07A-556D-453E-9391-294A0BA0D1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1224B07A-556D-453E-9391-294A0BA0D1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1224B07A-556D-453E-9391-294A0BA0D1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1224B07A-556D-453E-9391-294A0BA0D1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
