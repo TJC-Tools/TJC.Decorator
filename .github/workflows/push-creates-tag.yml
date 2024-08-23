@@ -15,8 +15,6 @@ env:
 
 jobs:
   incrementVersion:
-    name: Push [${{ github.event.head_cojobs:
-  incrementVersion:
     name: Push [${{ github.event.head_commit.message }}]
     permissions: write-all
     runs-on: windows-2022
