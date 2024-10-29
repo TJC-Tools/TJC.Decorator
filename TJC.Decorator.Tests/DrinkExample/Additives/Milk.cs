@@ -2,7 +2,8 @@
 
 public class Milk : DrinkDecorator
 {
-    public Milk(IDrink drink) : base(drink)
+    public Milk(IDrink drink)
+        : base(drink)
     {
         Decoratable.Cool();
     }

@@ -2,10 +2,9 @@
 
 public static class DrinkTemperatureHelpers
 {
-    public static void Cool(this IDrink drink) =>
-        drink.Temperature = drink.Temperature.Cool();
-    public static void Heat(this IDrink drink) =>
-        drink.Temperature = drink.Temperature.Heat();
+    public static void Cool(this IDrink drink) => drink.Temperature = drink.Temperature.Cool();
+
+    public static void Heat(this IDrink drink) => drink.Temperature = drink.Temperature.Heat();
 
     public static DrinkTemperature Cool(this DrinkTemperature temperature)
     {
