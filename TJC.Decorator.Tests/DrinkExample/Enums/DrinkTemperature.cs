@@ -8,5 +8,5 @@ public enum DrinkTemperature
     Mild = 3,
     Warm = 4,
     Hot = 5,
-    Scorching = 6
+    Scorching = 6,
 }

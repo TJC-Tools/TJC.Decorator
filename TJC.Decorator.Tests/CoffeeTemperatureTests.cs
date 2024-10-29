@@ -15,7 +15,11 @@ namespace TJC.Decorator.Tests
         {
             IDrink coffee = new Coffee();
             coffee = new Milk(coffee);
-            Assert.AreEqual(DrinkTemperature.Warm, coffee.Temperature, "Coffee with milk should be warm");
+            Assert.AreEqual(
+                DrinkTemperature.Warm,
+                coffee.Temperature,
+                "Coffee with milk should be warm"
+            );
         }
 
         [TestMethod]
@@ -23,7 +27,11 @@ namespace TJC.Decorator.Tests
         {
             IDrink coffee = new Coffee();
             coffee = new Ice(coffee);
-            Assert.AreEqual(DrinkTemperature.Mild, coffee.Temperature, "Coffee with ice should be mild");
+            Assert.AreEqual(
+                DrinkTemperature.Mild,
+                coffee.Temperature,
+                "Coffee with ice should be mild"
+            );
         }
 
         [TestMethod]
@@ -32,7 +40,11 @@ namespace TJC.Decorator.Tests
             IDrink coffee = new Coffee();
             coffee = new Milk(coffee);
             coffee = new Ice(coffee);
-            Assert.AreEqual(DrinkTemperature.Cool, coffee.Temperature, "Coffee with milk & ice should be cool");
+            Assert.AreEqual(
+                DrinkTemperature.Cool,
+                coffee.Temperature,
+                "Coffee with milk & ice should be cool"
+            );
         }
 
         [TestMethod]
@@ -42,7 +54,11 @@ namespace TJC.Decorator.Tests
             coffee = new Milk(coffee);
             coffee = new Ice(coffee);
             coffee = new Ice(coffee);
-            Assert.AreEqual(DrinkTemperature.Freezing, coffee.Temperature, "Coffee with milk & two ice should be freezing");
+            Assert.AreEqual(
+                DrinkTemperature.Freezing,
+                coffee.Temperature,
+                "Coffee with milk & two ice should be freezing"
+            );
         }
     }
 }

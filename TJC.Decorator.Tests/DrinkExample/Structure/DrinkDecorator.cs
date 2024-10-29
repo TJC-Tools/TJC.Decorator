@@ -1,7 +1,6 @@
 ﻿namespace TJC.Decorator.Tests.DrinkExample.Structure;
 
-public class DrinkDecorator(IDrink coffee)
-    : DecoratorBaseClass<IDrink>(coffee), IDrink
+public class DrinkDecorator(IDrink coffee) : DecoratorBaseClass<IDrink>(coffee), IDrink
 {
     public DrinkTemperature Temperature
     {
