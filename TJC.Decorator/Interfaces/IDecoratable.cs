@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Interfaces;
+namespace TJC.Decorator.Interfaces;
 
 public interface IDecoratable
 {

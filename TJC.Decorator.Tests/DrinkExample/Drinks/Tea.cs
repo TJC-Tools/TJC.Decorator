@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Tests.DrinkExample.Drinks;
+namespace TJC.Decorator.Tests.DrinkExample.Drinks;
 
 public class Tea : DecoratableDrink
 {

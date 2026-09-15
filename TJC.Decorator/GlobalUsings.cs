@@ -1,1 +1,1 @@
-﻿global using TJC.Decorator.Interfaces;
+global using TJC.Decorator.Interfaces;

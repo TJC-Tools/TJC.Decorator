@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Tests.DrinkExample.Enums;
+namespace TJC.Decorator.Tests.DrinkExample.Enums;
 
 public enum DrinkTemperature
 {

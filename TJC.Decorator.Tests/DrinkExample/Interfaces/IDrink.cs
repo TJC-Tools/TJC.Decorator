@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Tests.DrinkExample.Interfaces;
+namespace TJC.Decorator.Tests.DrinkExample.Interfaces;
 
 public interface IDrink : IDecoratable
 {

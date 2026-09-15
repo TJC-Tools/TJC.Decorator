@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Tests.DrinkExample.Additives;
+namespace TJC.Decorator.Tests.DrinkExample.Additives;
 
 public class Milk : DrinkDecorator
 {

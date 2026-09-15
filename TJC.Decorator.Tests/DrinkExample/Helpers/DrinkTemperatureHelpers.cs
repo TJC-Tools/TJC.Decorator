@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Tests.DrinkExample.Helpers;
+namespace TJC.Decorator.Tests.DrinkExample.Helpers;
 
 public static class DrinkTemperatureHelpers
 {

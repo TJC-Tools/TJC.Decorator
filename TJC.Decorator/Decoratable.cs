@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator;
+namespace TJC.Decorator;
 
 public class Decoratable : IDecoratable
 {

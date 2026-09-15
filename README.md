@@ -6,6 +6,7 @@
 ![Size](https://img.shields.io/github/repo-size/TJC-Tools/TJC.Decorator)
 [![License](https://img.shields.io/github/license/TJC-Tools/TJC.Decorator.svg)](LICENSE)
 
+[![tests](https://github.com/TJC-Tools/TJC.Decorator/actions/workflows/ct-matrix.yml/badge.svg)](https://github.com/TJC-Tools/TJC.Decorator/actions/workflows/ct-matrix.yml)
 [![codecov](https://codecov.io/gh/TJC-Tools/TJC.Decorator/graph/badge.svg?token=Z7XLJ2TNJS)](https://codecov.io/gh/TJC-Tools/TJC.Decorator)
 
 ## Documentation

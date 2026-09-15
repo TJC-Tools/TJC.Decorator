@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator.Tests.DrinkExample.Structure;
+namespace TJC.Decorator.Tests.DrinkExample.Structure;
 
 public class DecoratableDrink : Decoratable, IDrink
 {

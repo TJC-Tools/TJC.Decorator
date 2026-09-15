@@ -1,4 +1,4 @@
-﻿namespace TJC.Decorator;
+namespace TJC.Decorator;
 
 public class DecoratorBaseClass<TDecoratable>(TDecoratable decoratable) : IDecoratable
     where TDecoratable : IDecoratable
