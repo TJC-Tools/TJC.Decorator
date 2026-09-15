@@ -1,6 +1,5 @@
 namespace TJC.Decorator.Tests
 {
-    
     public class CoffeeTemperatureTests
     {
         [Fact]
