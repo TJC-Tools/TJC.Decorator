@@ -3,7 +3,6 @@ using TJC.Decorator.Tests.DrinkExample.Interfaces;
 
 namespace TJC.Decorator.Tests;
 
-
 public class DecoratorBaseClassTests
 {
     [Fact]
